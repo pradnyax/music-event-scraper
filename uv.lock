@@ -7,12 +7,14 @@ name = "app8-web-scraping"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "python-dotenv" },
     { name = "requests" },
     { name = "selectorlib" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "requests", specifier = ">=2.34.2" },
     { name = "selectorlib", specifier = ">=0.16.0" },
 ]
@@ -282,6 +284,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c4/04/b7eca3afc99d9dc1178ad22b5a37597d09c259d00693052480f2b2bbca83/parsel-1.12.1.tar.gz", hash = "sha256:f526df846f3a91e13f5499156ea3e755114834cd126b62cd1d784ef558f3a713", size = 114478, upload-time = "2026-09-28T14:15:53.773Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e9/44/2ff782553b581b3d55632eb4f9de1dc792ca99de7e47f69e22af28a9ef2d/parsel-1.12.1-py3-none-any.whl", hash = "sha256:cf74e09857329bddc02c13ae239a9b46f410dc5bd1d05361c8c2643a1a5a7149", size = 15674, upload-time = "2026-09-28T14:15:52.232Z" },
+]
+
+[[package]]
+name = "python-dotenv"
+version = "1.2.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/26/2fbeedb218a787a5eea551c7532cac4e009f83d689dd2faa0d0353473f86/python_dotenv-1.2.4.tar.gz", hash = "sha256:f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0", size = 60824, upload-time = "2026-10-01T05:36:10Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl", hash = "sha256:42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc", size = 23266, upload-time = "2026-10-01T05:36:08.633Z" },
 ]
 
 [[package]]
